@@ -1,0 +1,31 @@
+{
+  "techtalk": {
+    "textchannel": "",
+    "voicechannel": "",
+    "controlchannel": "",
+    "guildserver": "",
+    "roles": {
+      "handup": "",
+      "admin": "",
+      "mod": ""
+    }
+  },
+  "slashcommands": {
+    "guilds": [
+      ""
+    ],
+    "permissions": [
+      {
+        "id": "",
+        "type": "role",
+        "is_use": true
+      },
+      {
+        "id": "",
+        "type": "user",
+        "is_use": true
+      }
+    ]
+  },
+  "limit_show_hand_ups": 10
+}

@@ -1,0 +1,18 @@
+{
+    "token": "DISCORD_TOKEN_HERE",
+    "mongodb": {
+        "host": "localhost",
+        "port": 27015,
+        "auth": {
+            "enabled": false,
+            "user": "",
+            "passwd": "",
+            "dbauth": "admin"
+        },
+        "db": "DEVThailandStage"
+    },
+    "redis": {
+        "host": "localhost",
+        "port": 6730
+    }
+}

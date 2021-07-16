@@ -1,0 +1,6 @@
+discord-py-slash-command==2.3.2
+discord.py==1.7.3
+motor==2.4.0
+async-timeout==3.0.1
+coloredlogs==15.0
+aioredis @ git+https://github.com/aio-libs/aioredis-py.git@35d6ebaa4e87b1cc8acbd151d521c2f8cff384f6
