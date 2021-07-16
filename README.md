@@ -38,6 +38,18 @@ Before run python script. Please config file comfig.json:
 
 and discord_config.json:
 ```json
+{
+  "techtalk": {
+    "textchannel": "Text channel for alert topic.",
+    "voicechannel": "Voice channel for control voice.",
+    "controlchannel": "Text channel for accept hands up.",
+    "guildserver": "Guild Server",
+    "roles": {
+      "handup": "Role hand up.",
+      "admin": "Role admin.",
+      "mod": "Role moderator."
+    }
+  },
  "slashcommands": {
     "guilds": [
       " Set Guilds ID."
@@ -56,6 +68,7 @@ and discord_config.json:
     ]
   },
    "limit_show_hand_ups": 10
+}
 ```
 
 and lastest run python script:
@@ -82,6 +95,7 @@ and lastest run python script:
 | /techtalk config rolehandups [role_hand_up]  | Config role hand up. | 
 | /techtalk config roleadmin [role_admin]  | Config role admin. |
 | /techtalk config rolemod [role_moderator]  | Config role moderator. |
+| /techtalk config guild  | Config guild server. |
 
 # 📷 Screenshot
 ![](https://media.discordapp.net/attachments/745354899994312704/865655749412519956/unknown.png?width=1080&height=377)
