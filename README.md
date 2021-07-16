@@ -1,6 +1,9 @@
 # 🤚 Bot discord Tech-Talk (Beta)
 Bot discord for make techtalk like clubhouse but you can able not to verify community discord server.
 
+Thank **DEV Thailand group** for quiz to build awsome project.
+If you want join group DEV Thailand group. you can join link this: https://discord.gg/7BpTK7qsXc
+
 ![Example bot discord](https://media.discordapp.net/attachments/745354899994312704/865654567667630110/unknown.png)
 
 # ✈️ Prepare
@@ -102,8 +105,6 @@ and lastest run python script:
 ![](https://media.discordapp.net/attachments/745354899994312704/865655824729899028/unknown.png)
 ![](https://media.discordapp.net/attachments/745354899994312704/865655084675629116/unknown.png)
 
-# Lastest 
-Thank **DEV Thailand group** for quiz to build awsome project.
 
 ## ไม่มีอะไรล่ะ มีแค่บอกว่า **S O R A C U T E ~ 💗**
 ![](https://media1.tenor.com/images/e9f734ab809113e9dc6383abb1de9373/tenor.gif?itemid=21692129)
