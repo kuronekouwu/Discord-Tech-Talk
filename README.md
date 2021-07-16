@@ -1,5 +1,5 @@
 # 🤚 Bot discord Tech-Talk (Beta)
-bot for make techtalk like clubhouse but you can able not to verify community discord server.
+Bot discord for make techtalk like clubhouse but you can able not to verify community discord server.
 
 ![Example bot discord](https://media.discordapp.net/attachments/745354899994312704/865654567667630110/unknown.png)
 
@@ -17,21 +17,21 @@ You can able to use this command:
 Before run python script. Please config file comfig.json:
 ```json
 {
-    "token": "", // Your token discord bot.
+    "token": "Your token discord bot.",
     "mongodb": { 
-        "host": "HOST_MONGODB", // Host MongoDB.
-        "port": 27015, // Port MongoDB.
+        "host": "Host MongoDB.",
+        "port": 27015,
         "auth": { 
-            "enabled": false, // Is Authentication.
-            "user": "", // Password MongoDB.
-            "passwd": "", // Password MongoDB.
-            "dbauth": "admin" // Database check user.
+            "enabled": false,
+            "user": " Username MongoDB.",
+            "passwd": "Password MongoDB.",
+            "dbauth": "Database Authenticaation."
         },
-        "db": "DEVThailandStage" // Database.
+        "db": "Database."
     },
     "redis": {
-        "host": "HOST_REDIS", // Host Redis.
-        "port": 6730 // Port Redis.
+        "host": "Host Redis.",
+        "port": 6730
     }
 }
 ```
@@ -40,22 +40,22 @@ and discord_config.json:
 ```json
  "slashcommands": {
     "guilds": [
-      "" // Set Guilds ID.
+      " Set Guilds ID."
     ],
-    "permissions": [ // Permissions Setup.
+    "permissions": [
       {
-        "id": "", // ID User & Role.
-        "type": "role", // Type User or Role.
-        "is_use": true // Is use.
+        "id": "ID User & Role.", 
+        "type": "Type User or Role. [ role, user ]",
+        "is_use": true
       },
       {
-        "id": "", // ID User & Role.
-        "type": "user", // Type User or Role.
-        "is_use": true // Is use.
-      }
+        "id": "ID User & Role.", 
+        "type": "Type User or Role. [ role, user ]",
+        "is_use": true
+      },
     ]
   },
-   "limit_show_hand_ups": 10 // Set Limit show name hands up.
+   "limit_show_hand_ups": 10
 ```
 
 and lastest run python script:
