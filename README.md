@@ -1,23 +1,23 @@
-# 🤚 Bot discord Tech-Talk (Beta)
-Bot discord for make techtalk like clubhouse but you can able not to verify community discord server.
+# 🤚 Discord Bot for Tech-Talk (Beta)
+This is the Discord bot that make the tech talk like Clubhouse, but you can't to verify community Discord server.
 
-Before installtion. Thank **DEV Thailand group** for quiz to build awsome project.
-If you want join group DEV Thailand group. you can join link this: https://discord.gg/7BpTK7qsXc
+Before Installtion, I'll thank **DEV Thailand group** for quiz to build this awesome project.
+If you would like to join the group, you can join via this link: https://discord.gg/7BpTK7qsXc
 
-![Example bot discord](https://media.discordapp.net/attachments/745354899994312704/865654567667630110/unknown.png)
+![Example Discord Bot](https://media.discordapp.net/attachments/745354899994312704/865654567667630110/unknown.png)
 
 # ✈️ Prepare
-- Python 3.8
-- Discord bot 
+- [Python 3.8](https://www.python.org/downloads/)
+- Discord Bot 
 - MongoDB Server 4.0+
 - Redis Server 15.0+
 
 # 💻Installtion:
-You can able to use this command:
+You can use this command:
 
     pip install -r requirements.txt
 
-Before run python script. Please config file comfig.json:
+Before running the Python script. Please config file: [config.json](config.json):
 ```json
 {
     "token": "Your token discord bot.",
@@ -26,8 +26,8 @@ Before run python script. Please config file comfig.json:
         "port": 27015,
         "auth": { 
             "enabled": false,
-            "user": " Username MongoDB.",
-            "passwd": "Password MongoDB.",
+            "user": "MongoDB Username",
+            "passwd": "MongoDB Password",
             "dbauth": "Database Authenticaation."
         },
         "db": "Database."
@@ -43,9 +43,9 @@ and discord_config.json:
 ```json
 {
   "techtalk": {
-    "textchannel": "Text channel for alert topic.",
-    "voicechannel": "Voice channel for control voice.",
-    "controlchannel": "Text channel for accept hands up.",
+    "textchannel": "Text Channel for topic alerts",
+    "voicechannel": "Voice Channel for voice control",
+    "controlchannel": "Text Channel for hands up accept",
     "guildserver": "Guild Server",
     "roles": {
       "handup": "Role hand up.",
@@ -74,7 +74,7 @@ and discord_config.json:
 }
 ```
 
-and lastest run python script:
+and finally, run the python script:
 
     python main.py
 
@@ -85,16 +85,16 @@ and lastest run python script:
 | /techtalk topic create [start] [end] [topic]  | Create topic. **After Created. Bot will send UUID to edit & delete topic.**  |
 | /techtalk topic delete [uuid] | Delete topic by UUID. |
 | /techtalk topic list | Show topic list **Not get UUID**. |
-| /techtalk topic uuid | Get topic UUID. **After select. bot will send UUID topic** | 
+| /techtalk topic uuid | Get topic UUID. **After selection. bot will send UUID topic** | 
 | /techtalk topic forcestart | Forcestart topic. |
 | /techtalk topic forcestop | Forcestop topic. |
 
 # 🗨️ Config commands
 | Commands | Description |
 | ------ | ------ |
-| /techtalk config text [channel_text_id] | Config text channel for alert topic.  |
-| /techtalk config voice [voice_channel_id]  | Config voice channel for control voice. |
-| /techtalk config control [channel_text_id]  | Config text channel for accept hands up. |
+| /techtalk config text [channel_text_id] | Config text channel for topic alerts.  |
+| /techtalk config voice [voice_channel_id]  | Config voice channel for voice control. |
+| /techtalk config control [channel_text_id]  | Config text channel for hands up accept. |
 | /techtalk config rolehandups [role_hand_up]  | Config role hand up. | 
 | /techtalk config roleadmin [role_admin]  | Config role admin. |
 | /techtalk config rolemod [role_moderator]  | Config role moderator. |
